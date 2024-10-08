@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How can one install Haskell on macOS?"
+permalink: /stories/2024-10-06-ghcup-macos.html
 date:   2024-10-06 16:32:00 -0800
 author: Yours Truly
 categories: Haskell macOS
