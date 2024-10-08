@@ -3,8 +3,9 @@ layout: post
 title:  "How can one install Haskell on macOS?"
 date:   2024-10-06 16:32:00 -0800
 author: Yours Truly
-categories: haskell macOS
+categories: Haskell macOS
 show_homepage: true
+summary: Haskell, Stokes' theorem, functional programming, macOS - quite a medley!
 ---
 
 <style type="text/css">
@@ -19,6 +20,23 @@ show_homepage: true
         font-family: "Courier New", Courier, monospace;
         text-shadow: 0 0 5px #00ff00;
     }
+    .post-categories {
+        text-align: right;
+        margin-top: 10px;
+        font-size: 0.9rem;
+        font-family: "Courier New", Courier, monospace;
+        color: #00ff00;
+    }
+    .post-categories a {
+        color: #00ff00;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    .post-categories a:hover {
+        color: #33ff33;
+        text-decoration: underline;
+    }
+
 </style>
 
 <head>
@@ -28,6 +46,12 @@ show_homepage: true
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
           onload="renderMathInElement(document.body);"></script>
 </head>
+
+<div class="post-categories">
+  {% for category in page.categories %}
+    <a href="/categories/{{ category }}">{{ category }}</a>
+  {% endfor %}
+</div>
 
 ## Why not about TempleOS, patching KDE under FreeBSD, or what have you
 
