@@ -46,11 +46,11 @@ $$
 
 And that helps designing microwave ovens and antennas, true story!
 
-If only there was a way to to deal with complexity like that in software engineering:
+If only there was a way to deal with complexity like that in software engineering:
 create good abstractions and the rules of combining them to have less code! Wait, that
 is what functional programming is about!
 
-An example [might be the quick sort](https://wiki.haskell.org/Introduction#Quicksort_in_Haskell):
+An example of some Haskell [might be the quick sort](https://wiki.haskell.org/Introduction#Quicksort_in_Haskell):
 
 ```haskell
 quicksort :: Ord a => [a] -> [a]
@@ -86,7 +86,7 @@ everything else goes under `~/.ghcup` and `~/.cabal`.
 
 As a side note, `rustup` and `cargo` in the Rust ecosystem have been influenced
 by `ghcup` and `cabal` from the looks of it. Good for Rust! Oh, and the Haskell
-package repository aka [Hackage](https://hackage.haskell.org/) appears to give
+package repository aka [Hackage](https://hackage.haskell.org/) appears to have given
 some ideas to [crates.io](https://crates.io).
 
 ## My favorite books on Haskell
@@ -97,7 +97,7 @@ some ideas to [crates.io](https://crates.io).
 * [Algorithm Design with Haskell](https://www.amazon.com/Algorithm-Design-Haskell-Richard-Bird/dp/1108491618/)
 * [Haskell for FPGA Hardware Design](https://gergo.erdi.hu/retroclash/)
 
-If you just starting out, then give a read to
+If you're just starting out, then give a read to
 [Learn You a Haskell for Great Good A Beginners Guide](https://learnyouahaskell.com/)
 
 ## Am I using that?
@@ -107,6 +107,6 @@ problems :) At work, no, I am not. The work stuff requires top performance and t
 ability to program hardware, and Haskell might not be the best tool for
 any of that.
 
-All told, hoping to talk about some hardcore stuff on the blog soon!
+All told, hoping to talk about some hardcore system stuff on the blog soon!
 
 ## Thank you, Yours Truly :)
