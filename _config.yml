@@ -8,3 +8,5 @@ collections:
   categories:
     output: true
     permalink: /categories/:name/
+github:
+  is_project_page: false
